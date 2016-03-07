@@ -1,0 +1,11 @@
+bin/
+lib/
+node_modules/
+obj/
+packages/
+
+.vs/
+
+*.cache
+*.suo
+*.user
