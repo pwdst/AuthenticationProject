@@ -12,6 +12,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "AuthenticationProject", "src\AuthenticationProject\AuthenticationProject.xproj", "{C37C4A50-7271-4AAB-9BC6-13E8DA1A95FF}"
 EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "AuthenticationProject.Data", "src\AuthenticationProject.Data\AuthenticationProject.Data.xproj", "{56D46F28-09D9-4E9C-9F16-60DC304674FC}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "AuthenticationProject.Shared", "src\AuthenticationProject.Shared\AuthenticationProject.Shared.xproj", "{338CAD49-4F60-4134-B077-394ED7654CAE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,11 +26,21 @@ Global
 		{C37C4A50-7271-4AAB-9BC6-13E8DA1A95FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C37C4A50-7271-4AAB-9BC6-13E8DA1A95FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C37C4A50-7271-4AAB-9BC6-13E8DA1A95FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56D46F28-09D9-4E9C-9F16-60DC304674FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56D46F28-09D9-4E9C-9F16-60DC304674FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56D46F28-09D9-4E9C-9F16-60DC304674FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56D46F28-09D9-4E9C-9F16-60DC304674FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{338CAD49-4F60-4134-B077-394ED7654CAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{338CAD49-4F60-4134-B077-394ED7654CAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{338CAD49-4F60-4134-B077-394ED7654CAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{338CAD49-4F60-4134-B077-394ED7654CAE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{C37C4A50-7271-4AAB-9BC6-13E8DA1A95FF} = {53996BE9-B1D0-4C99-A03B-817906260E56}
+		{56D46F28-09D9-4E9C-9F16-60DC304674FC} = {53996BE9-B1D0-4C99-A03B-817906260E56}
+		{338CAD49-4F60-4134-B077-394ED7654CAE} = {53996BE9-B1D0-4C99-A03B-817906260E56}
 	EndGlobalSection
 EndGlobal
