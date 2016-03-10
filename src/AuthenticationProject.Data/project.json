@@ -8,6 +8,7 @@
   "frameworks": {
     "net451": {
       "frameworkAssemblies": {
+        "System.ComponentModel.DataAnnotations": "4.0.0.0",
         "System.Data": "4.0.0.0"
       }
     },
@@ -23,6 +24,7 @@
     }
   },
   "dependencies": {
-    "AuthenticationProject.Shared": "1.0.0-*"
+    "AuthenticationProject.Shared": "1.0.0-*",
+    "Microsoft.AspNet.Mvc.DataAnnotations": "6.0.0-rc1-final"
   }
 }
