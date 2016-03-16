@@ -10,7 +10,8 @@
           "JetBrains.Annotations": "10.1.2-eap"
         },
         "frameworkAssemblies": [
-          "System.Data"
+          "System.Data",
+          "System.Globalization"
         ]
       },
       "JetBrains.Annotations/10.1.2-eap": {
@@ -1533,7 +1534,8 @@
           "JetBrains.Annotations": "10.1.2-eap"
         },
         "frameworkAssemblies": [
-          "System.Data"
+          "System.Data",
+          "System.Globalization"
         ]
       },
       "JetBrains.Annotations/10.1.2-eap": {
@@ -2011,7 +2013,8 @@
           "JetBrains.Annotations": "10.1.2-eap"
         },
         "frameworkAssemblies": [
-          "System.Data"
+          "System.Data",
+          "System.Globalization"
         ]
       },
       "JetBrains.Annotations/10.1.2-eap": {

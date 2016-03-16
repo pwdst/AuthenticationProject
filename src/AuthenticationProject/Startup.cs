@@ -1,11 +1,13 @@
-﻿using Microsoft.AspNet.Builder;
-using Microsoft.AspNet.Hosting;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Logging;
-
-namespace AuthenticationProject
+﻿namespace AuthenticationProject
 {
+    using Microsoft.AspNet.Builder;
+    using Microsoft.AspNet.Hosting;
+    using Microsoft.AspNet.Localization;
+    using Microsoft.Extensions.Configuration;
+    using Microsoft.Extensions.DependencyInjection;
+    using Microsoft.Extensions.Logging;
+    using System.Globalization;
+
     public class Startup
     {
         public Startup(IHostingEnvironment env)
@@ -63,7 +65,11 @@ namespace AuthenticationProject
 
             app.UseStaticFiles();
 
-            // To configure external authentication please see http://go.microsoft.com/fwlink/?LinkID=532715
+            var defaultCulture = new CultureInfo("en-GB");
+
+            var defaultRequestCulture = new RequestCulture(defaultCulture);
+
+            app.UseRequestLocalization(defaultRequestCulture);
 
             app.UseMvc(routes =>
             {

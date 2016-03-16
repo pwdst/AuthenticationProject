@@ -2279,6 +2279,7 @@
       "JetBrains.Annotations >= 10.1.2-eap"
     ],
     ".NETFramework,Version=v4.5.1": [
+      "fx/System.Globalization >= 4.0.0",
       "fx/System.Data >= 4.0.0"
     ],
     ".NETPlatform,Version=v5.4": [
