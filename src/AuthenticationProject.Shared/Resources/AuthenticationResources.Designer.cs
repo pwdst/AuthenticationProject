@@ -69,6 +69,15 @@ namespace AuthenticationProject.Shared.Resources {
         }
         
         /// <summary>
+        ///    Looks up a localized string similar to Existing password is incorrect.
+        /// </summary>
+        internal static string ExistingPasswordIncorrect {
+            get {
+                return ResourceManager.GetString("ExistingPasswordIncorrect", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///    Looks up a localized string similar to Username is already in use.
         /// </summary>
         internal static string UsernameInUse {
